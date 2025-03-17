@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-[family-name:system-ui] text-[rgba(255,255,255,0.87)] bg-[#242424] antialiased;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: light dark;
+  }
+}
+
+.Heading-tag-styles {
+  @apply text-5xl leading-[1.1] text-[#888]
+}
+
+.anchor-tag-styles {
+  @apply font-medium text-[#646cff] hover:text-[#535bf2]
+  
+}
+
+.button-styles {
+@apply bg-[#1a1a1a] rounded-[1rem] py-[0.6rem] px-[1.2rem] font-medium text-base border-[1px] border-transparent hover:border-[#646cff] transition-colors duration-500 cursor-pointer focus:outline-[4px]
+}
+
+
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+
+
+/*
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
